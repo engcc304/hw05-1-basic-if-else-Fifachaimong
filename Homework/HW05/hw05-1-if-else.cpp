@@ -21,11 +21,12 @@ int main(){
     char M = 'Y';
     char Y = 'M';
     char K = 'L';
-    printf("star\n");
-    scanf("%d",A ,B ,C ,D ,L ,M ,Y ,K);
+    printf("star\n",L ,M ,Y ,K);
+    scanf("%d",L ,M ,Y ,K);
+    printf("star\n",A ,B ,C ,D);
     if ( L ,M ,Y ,K ){
         printf("Result: K M Y L");
-    }else if( A ,B ,C ,D ){
+    }else if (scanf("%d",A ,B ,C ,D ));{
         printf("Result: D C B A");
     }
   return 0;
