@@ -11,3 +11,22 @@
     Output:
         Result: D C B A
 */
+#include <stdio.h>
+int main(){
+    char A ='D';
+    char B ='C';
+    char C = 'B';
+    char D = 'A';
+    char L = 'K';
+    char M = 'Y';
+    char Y = 'M';
+    char K = 'L';
+    printf("star\n");
+    scanf("%d",A ,B ,C ,D ,L ,M ,Y ,K);
+    if ( A ,B ,C ,D ){
+        printf("Result: D C B A");
+    }else if( L ,M ,Y ,K ){
+        printf("Result: K M Y K");
+    }
+  return 0;
+}
