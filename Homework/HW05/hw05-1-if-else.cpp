@@ -23,10 +23,10 @@ int main(){
     char K = 'L';
     printf("star\n");
     scanf("%d",A ,B ,C ,D ,L ,M ,Y ,K);
-    if ( A ,B ,C ,D ){
+    if ( L ,M ,Y ,K ){
+        printf("Result: K M Y L");
+    }else if( A ,B ,C ,D ){
         printf("Result: D C B A");
-    }else if( L ,M ,Y ,K ){
-        printf("Result: K M Y K");
     }
   return 0;
 }
